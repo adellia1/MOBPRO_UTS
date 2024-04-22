@@ -48,7 +48,7 @@ class _ProfilePageState extends State<ProfilePage> {
       length: tabs.length,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 211, 48, 143),
+          backgroundColor: Color.fromARGB(255, 24, 216, 47),
           titleTextStyle: const TextStyle(
             color: Colors.white,
           ),
@@ -94,7 +94,7 @@ class _ProfilePageState extends State<ProfilePage> {
         bottom: 5.0,
       ),
       child: Text(
-        "Traveller",
+        "MEMASAK",
         style: TextStyle(
           fontWeight: FontWeight.normal,
           fontSize: 12,
@@ -107,7 +107,7 @@ class _ProfilePageState extends State<ProfilePage> {
     return const Padding(
       padding: EdgeInsets.only(top: 8.0),
       child: Text(
-        "RAHAYU DWI SETIOWATI",
+        "ADELLIA OKTAVIANI",
         style: TextStyle(
           fontSize: 15,
           fontWeight: FontWeight.bold,
@@ -131,7 +131,7 @@ class _ProfilePageState extends State<ProfilePage> {
             ),
             SizedBox(height: 8.0),
             Text(
-              "15",
+              "5",
               style: TextStyle(fontWeight: FontWeight.normal),
             ),
           ],
@@ -147,7 +147,7 @@ class _ProfilePageState extends State<ProfilePage> {
             ),
             SizedBox(height: 8.0),
             Text(
-              "1132",
+              "1398",
               style: TextStyle(fontWeight: FontWeight.normal),
             ),
           ],
@@ -163,7 +163,7 @@ class _ProfilePageState extends State<ProfilePage> {
             ),
             SizedBox(height: 8.0),
             Text(
-              "617",
+              "641",
               style: TextStyle(fontWeight: FontWeight.normal),
             ),
           ],
@@ -172,21 +172,20 @@ class _ProfilePageState extends State<ProfilePage> {
     );
   }
 
-Container profilePhotos() {
-  return Container(
-    decoration: const BoxDecoration(
-      shape: BoxShape.circle,
-      color: Colors.red,
-    ),
-    width: 100,
-    height: 100,
-    alignment: Alignment.center,
-    child: CircleAvatar(
-      radius: 100,
-      backgroundColor: Colors.transparent,
-      backgroundImage: AssetImage('img/rahayu.jpg'),
-    ),
-  );
-}
-
+  Container profilePhotos() {
+    return Container(
+      decoration: const BoxDecoration(
+        shape: BoxShape.circle,
+        color: Colors.red,
+      ),
+      width: 100,
+      height: 100,
+      alignment: Alignment.center,
+      child: CircleAvatar(
+        radius: 100,
+        backgroundColor: Colors.transparent,
+        backgroundImage: AssetImage('img/adel.jpg'),
+      ),
+    );
+  }
 }
