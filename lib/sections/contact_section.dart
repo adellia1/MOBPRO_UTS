@@ -59,7 +59,7 @@ Card contactDetail() {
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text(
-              "087768205032",
+              "085691037646",
               style: TextStyle(color: Colors.black),
             ),
             dense: true,
@@ -73,7 +73,7 @@ Card contactDetail() {
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text(
-              "trirahayumipiran@gmail.com",
+              "rahayudwisetiowati123@gmail.com",
               style: TextStyle(color: Colors.black),
             ),
             dense: true,
@@ -87,7 +87,7 @@ Card contactDetail() {
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text(
-              "@ayuuurhh_",
+              "rahayu dss",
               style: TextStyle(color: Colors.black),
             ),
             dense: true,

@@ -48,7 +48,7 @@ class _ProfilePageState extends State<ProfilePage> {
       length: tabs.length,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: const Color.fromARGB(255, 48, 160, 211),
+          backgroundColor: Color.fromARGB(255, 211, 48, 143),
           titleTextStyle: const TextStyle(
             color: Colors.white,
           ),
@@ -107,7 +107,7 @@ class _ProfilePageState extends State<ProfilePage> {
     return const Padding(
       padding: EdgeInsets.only(top: 8.0),
       child: Text(
-        "TRI RAHAYU",
+        "RAHAYU DWI SETIOWATI",
         style: TextStyle(
           fontSize: 15,
           fontWeight: FontWeight.bold,
@@ -131,7 +131,7 @@ class _ProfilePageState extends State<ProfilePage> {
             ),
             SizedBox(height: 8.0),
             Text(
-              "12",
+              "15",
               style: TextStyle(fontWeight: FontWeight.normal),
             ),
           ],
@@ -147,7 +147,7 @@ class _ProfilePageState extends State<ProfilePage> {
             ),
             SizedBox(height: 8.0),
             Text(
-              "1211",
+              "1132",
               style: TextStyle(fontWeight: FontWeight.normal),
             ),
           ],
@@ -163,7 +163,7 @@ class _ProfilePageState extends State<ProfilePage> {
             ),
             SizedBox(height: 8.0),
             Text(
-              "730",
+              "617",
               style: TextStyle(fontWeight: FontWeight.normal),
             ),
           ],
@@ -184,7 +184,7 @@ Container profilePhotos() {
     child: CircleAvatar(
       radius: 100,
       backgroundColor: Colors.transparent,
-      backgroundImage: AssetImage('img/ayu2.jpg'),
+      backgroundImage: AssetImage('img/rahayu.jpg'),
     ),
   );
 }

@@ -19,7 +19,7 @@ class AboutSection extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(30),
           child: const Text(
-            "Tri Rahayu biasa disebut Ayu adalah seorang mahasiswa yang lahir di Padamara, Kabupaten Purbalingga, pada tanggal 4 September 2002. Sebagai anak ketiga dalam keluarganya, Ayu tumbuh dalam lingkungan yang penuh kasih sayang dan dukungan. Sejak SMP, Ayu telah menunjukkan minat yang besar dalam kegiatan mendaki gunung. Hobi ini menjadi bagian penting dari kehidupannya, menghadirkan tantangan dan kegembiraan yang tak terlupakan. Setiap kesempatan yang ada, Ayu selalu mencari waktu untuk menjelajahi jalur-jalur mendaki dan menaklukkan puncak-puncak tinggi. Meskipun begitu, Ayu juga sangat serius dalam mengejar pendidikan. Saat ini, Ayu sedang menempuh pendidikan tinggi di salah satu perguruan tinggi di Purwokerto. Semangat belajar Ayu yang tinggi mencerminkan dedikasi dan tekadnya untuk mencapai kesuksesan dalam karier masa depannya.",
+            "Nama saya Rahayu Dwi Setiowati, lahir di Purbalingga, 19 Maret 2003,  saya adalah anak kedua dari tiga bersaudara, dari pasangan Rusmiarto dan Sami. Ayu adalah nama panggilanku. Saya terlahir di keluarga yang sederhana, ayah seorang pedagang, sedangkan ibu bekerja sebagai Ibu Rumah Tangga (IRT). Sejak kecil, saya selalu dinasehati oleh ayah saya untuk selalu rajin beribadah, jujur dan baik terhadap sesama. Ketika berumur 7 tahun, saya memulai pendidikan di SDN 1 Mipiran, kemudian setelah lulus melanjutkan pendidikannya di SMPN 2 Padamara, di tahun 2011 Setelah lulus dari SMP di tahun 2014, saya melanjutkan pendidikannya di SMK N 1 Kutasari.",
             style: TextStyle(color: Colors.black),
           ),
         ),
